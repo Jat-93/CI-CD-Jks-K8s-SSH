@@ -7,7 +7,7 @@ def DockerTag() {
 	return tag
 	}
 pipeline {
-  agent { label 'master' }
+  agent { label 'working' }
     tools {
       maven 'Maven'
       jdk 'JAVA_HOME'
